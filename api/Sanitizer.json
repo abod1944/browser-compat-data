@@ -36,9 +36,9 @@
           "webview_android": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
-          "deprecated": false
+          "deprecated": true
         }
       },
       "Sanitizer": {
@@ -78,15 +78,14 @@
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
       "getConfiguration": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/Sanitizer/getConfiguration",
           "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-getconfiguration",
           "support": {
             "chrome": {
@@ -113,9 +112,9 @@
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -148,9 +147,9 @@
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -189,9 +188,9 @@
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       }

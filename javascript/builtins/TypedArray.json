@@ -398,7 +398,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -444,7 +444,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -490,7 +490,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -536,7 +536,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -582,7 +582,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -628,7 +628,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -674,7 +674,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -1006,7 +1006,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -1096,7 +1096,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -1289,7 +1289,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -1304,7 +1304,7 @@
         },
         "name": {
           "__compat": {
-            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/name",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/name",
             "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-properties-of-the-typedarray-constructors",
             "tags": [
               "web-features:typed-arrays",
@@ -1440,7 +1440,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "9.1"
+                "version_added": "10"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",

@@ -3,7 +3,7 @@
     "api": {
       "scripting": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting/",
+          "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting",
           "support": {
             "chrome": {
               "version_added": "88",
@@ -119,6 +119,26 @@
                 "notes": "Available for use in Manifest V2 or later."
               },
               "safari_ios": "mirror"
+            }
+          },
+          "matchOriginAsFallback": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "119"
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": "128"
+                },
+                "firefox_android": "mirror",
+                "opera": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/264829"
+                },
+                "safari_ios": "mirror"
+              }
             }
           },
           "persistAcrossSessions": {
@@ -354,7 +374,7 @@
                 "firefox_android": "mirror",
                 "opera": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": "18"
                 },
                 "safari_ios": "mirror"
               }
@@ -414,7 +434,7 @@
                 "firefox_android": "mirror",
                 "opera": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": "18"
                 },
                 "safari_ios": "mirror"
               }

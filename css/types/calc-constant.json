@@ -3,8 +3,8 @@
     "types": {
       "calc-constant": {
         "__compat": {
-          "description": "&lt;calc-constant&gt;",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-constant",
+          "description": "<code>&lt;calc-constant&gt;</code>",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-keyword",
           "spec_url": "https://drafts.csswg.org/css-values/#calc-constants",
           "tags": [
             "web-features:calc-constants"

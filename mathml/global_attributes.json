@@ -5,9 +5,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/dir",
           "spec_url": "https://w3c.github.io/mathml-core/#dfn-dir",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -47,9 +44,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/displaystyle",
           "spec_url": "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -125,9 +119,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathbackground",
           "spec_url": "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -170,9 +161,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathcolor",
           "spec_url": "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -215,9 +203,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathsize",
           "spec_url": "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -261,7 +246,7 @@
         "named_spaces": {
           "__compat": {
             "description": "Named spaces (e.g. <code>thinmathspace</code> to mean 3/18em)",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Attribute/Values#legacy_mathml_lengths",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Values",
             "support": {
               "chrome": {
                 "version_added": false
@@ -295,7 +280,7 @@
         "nonzero_unitless_values": {
           "__compat": {
             "description": "Nonzero unitless values (e.g. 5 to mean 500%)",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Attribute/Values#legacy_mathml_lengths",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Values",
             "support": {
               "chrome": {
                 "version_added": false
@@ -366,9 +351,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/scriptlevel",
           "spec_url": "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"

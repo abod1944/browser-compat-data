@@ -5,9 +5,6 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Element/mspace",
           "spec_url": "https://w3c.github.io/mathml-core/#space-mspace",
-          "tags": [
-            "web-features:mathml"
-          ],
           "support": {
             "chrome": {
               "version_added": "109"
@@ -39,9 +36,6 @@
         },
         "depth": {
           "__compat": {
-            "tags": [
-              "web-features:mathml"
-            ],
             "support": {
               "chrome": {
                 "version_added": "109"
@@ -74,9 +68,6 @@
         },
         "height": {
           "__compat": {
-            "tags": [
-              "web-features:mathml"
-            ],
             "support": {
               "chrome": {
                 "version_added": "109"
@@ -110,7 +101,7 @@
         "named_spaces": {
           "__compat": {
             "description": "Named spaces (e.g. <code>thinmathspace</code> to mean 3/18em) for <code>width</code>, <code>height</code> and <code>depth</code> attributes",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Attribute/Values#legacy_mathml_lengths",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/MathML/Values",
             "support": {
               "chrome": {
                 "version_added": false
@@ -143,9 +134,6 @@
         },
         "width": {
           "__compat": {
-            "tags": [
-              "web-features:mathml"
-            ],
             "support": {
               "chrome": {
                 "version_added": "109"
