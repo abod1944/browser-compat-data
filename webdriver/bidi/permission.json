@@ -1,21 +1,16 @@
 {
-  "css": {
-    "properties": {
-      "view-transition-name": {
+  "webdriver": {
+    "bidi": {
+      "permission": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-name",
-          "spec_url": "https://drafts.csswg.org/css-view-transitions/#view-transition-name-prop",
-          "tags": [
-            "web-features:view-transitions"
-          ],
           "support": {
             "chrome": {
-              "version_added": "111"
+              "version_added": "126"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "preview"
+              "version_added": "127"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -25,7 +20,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "18"
+              "version_added": false
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -34,25 +29,29 @@
           },
           "status": {
             "experimental": false,
-            "standard_track": true,
+            "standard_track": false,
             "deprecated": false
           }
         },
-        "none": {
+        "setPermission": {
           "__compat": {
-            "spec_url": "https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none",
-            "tags": [
-              "web-features:view-transitions"
-            ],
             "support": {
               "chrome": {
-                "version_added": "111"
+                "version_added": "126"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
-              "firefox": {
-                "version_added": "preview"
-              },
+              "firefox": [
+                {
+                  "version_added": "128"
+                },
+                {
+                  "version_added": "127",
+                  "version_removed": "128",
+                  "partial_implementation": true,
+                  "notes": "Basic support (see [bug 1875064](https://bugzil.la/1875064))"
+                }
+              ],
               "firefox_android": "mirror",
               "ie": {
                 "version_added": false
@@ -61,7 +60,8 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "18"
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/265621"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -70,7 +70,7 @@
             },
             "status": {
               "experimental": false,
-              "standard_track": true,
+              "standard_track": false,
               "deprecated": false
             }
           }

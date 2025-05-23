@@ -1,21 +1,16 @@
 {
-  "css": {
-    "properties": {
-      "view-transition-name": {
+  "webdriver": {
+    "bidi": {
+      "emulation": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-name",
-          "spec_url": "https://drafts.csswg.org/css-view-transitions/#view-transition-name-prop",
-          "tags": [
-            "web-features:view-transitions"
-          ],
           "support": {
             "chrome": {
-              "version_added": "111"
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "preview"
+              "version_added": "139"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -25,7 +20,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "18"
+              "version_added": false
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -33,25 +28,23 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
-            "standard_track": true,
+            "experimental": true,
+            "standard_track": false,
             "deprecated": false
           }
         },
-        "none": {
+        "setGeolocationOverride": {
           "__compat": {
-            "spec_url": "https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none",
-            "tags": [
-              "web-features:view-transitions"
-            ],
             "support": {
               "chrome": {
-                "version_added": "111"
+                "version_added": false
               },
               "chrome_android": "mirror",
               "edge": "mirror",
               "firefox": {
-                "version_added": "preview"
+                "version_added": "139",
+                "partial_implementation": true,
+                "notes": "Basic support (see [bug 1886512](https://bugzil.la/1886512))"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -61,7 +54,8 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "18"
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/291197"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -69,8 +63,8 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": false,
-              "standard_track": true,
+              "experimental": true,
+              "standard_track": false,
               "deprecated": false
             }
           }

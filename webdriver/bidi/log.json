@@ -1,21 +1,17 @@
 {
-  "css": {
-    "properties": {
-      "view-transition-name": {
+  "webdriver": {
+    "bidi": {
+      "log": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-name",
-          "spec_url": "https://drafts.csswg.org/css-view-transitions/#view-transition-name-prop",
-          "tags": [
-            "web-features:view-transitions"
-          ],
+          "spec_url": "https://w3c.github.io/webdriver-bidi/#module-log",
           "support": {
             "chrome": {
-              "version_added": "111"
+              "version_added": "126"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "preview"
+              "version_added": "94"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -25,7 +21,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "18"
+              "version_added": false
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -38,20 +34,19 @@
             "deprecated": false
           }
         },
-        "none": {
+        "entryAdded_event": {
           "__compat": {
-            "spec_url": "https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none",
-            "tags": [
-              "web-features:view-transitions"
-            ],
+            "spec_url": "https://w3c.github.io/webdriver-bidi/#event-log-entryAdded",
             "support": {
               "chrome": {
-                "version_added": "111"
+                "version_added": "126"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
               "firefox": {
-                "version_added": "preview"
+                "version_added": "94",
+                "partial_implementation": true,
+                "notes": "Basic support (see [bug 1719287](https://bugzil.la/1719287))"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -61,7 +56,7 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "18"
+                "version_added": false
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",

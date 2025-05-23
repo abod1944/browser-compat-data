@@ -1,22 +1,19 @@
 {
-  "css": {
-    "selectors": {
-      "view-transition-new": {
+  "manifests": {
+    "webapp": {
+      "scope_extensions": {
         "__compat": {
-          "description": "`::view-transition-new()`",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new",
-          "spec_url": "https://drafts.csswg.org/css-view-transitions/#::view-transition-new",
           "tags": [
-            "web-features:view-transitions"
+            "web-features:manifest"
           ],
           "support": {
             "chrome": {
-              "version_added": "109"
+              "version_added": "138"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "preview"
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -26,7 +23,7 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "18"
+              "version_added": false
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
@@ -34,8 +31,8 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
-            "standard_track": true,
+            "experimental": true,
+            "standard_track": false,
             "deprecated": false
           }
         }
