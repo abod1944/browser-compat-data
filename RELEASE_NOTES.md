@@ -1,5 +1,148 @@
 # @mdn/browser-compat-data release notes
 
+## [v6.0.21](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.21)
+
+June 6, 2025
+
+### Additions
+
+- `browsers.samsunginternet_android.releases.28.0` ([#26981](https://github.com/mdn/browser-compat-data/pull/26981))
+
+### Statistics
+
+- 11 contributors have changed 32 files with 350 additions and 303 deletions in 18 commits ([`v6.0.20...v6.0.21`](https://github.com/mdn/browser-compat-data/compare/v6.0.20...v6.0.21))
+- 17,197 total features
+- 1,158 total contributors
+- 5,273 total stargazers
+
+## [v6.0.20](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.20)
+
+June 3, 2025
+
+### Removals
+
+- `svg.elements.discard` ([#26883](https://github.com/mdn/browser-compat-data/pull/26883))
+
+### Additions
+
+- `api.GPUCommandEncoder.copyBufferToBuffer.offset_and_size_parameter_optional` ([#26935](https://github.com/mdn/browser-compat-data/pull/26935))
+- `api.GPUDevice.createBindGroup.descriptor_entries_option_accepts_GPUTextureView_resource` ([#26935](https://github.com/mdn/browser-compat-data/pull/26935))
+- `api.ProgressEvent.ProgressEvent.loaded_total_options_accept_double` ([#26956](https://github.com/mdn/browser-compat-data/pull/26956))
+- `css.properties.view-transition-name.match-element` ([#26964](https://github.com/mdn/browser-compat-data/pull/26964))
+- `webdriver.bidi.browsingContext.historyUpdated_event` ([#26976](https://github.com/mdn/browser-compat-data/pull/26976))
+
+### Statistics
+
+- 9 contributors have changed 29 files with 562 additions and 236 deletions in 21 commits ([`v6.0.19...v6.0.20`](https://github.com/mdn/browser-compat-data/compare/v6.0.19...v6.0.20))
+- 17,197 total features
+- 1,158 total contributors
+- 5,267 total stargazers
+
+## [v6.0.19](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.19)
+
+May 30, 2025
+
+### Additions
+
+- `api.CredentialsContainer.create.publicKey_option.extensions.prf` ([#26828](https://github.com/mdn/browser-compat-data/pull/26828))
+- `api.CredentialsContainer.get.publicKey_option.extensions.prf` ([#26828](https://github.com/mdn/browser-compat-data/pull/26828))
+- `api.VideoFrame.flip` ([#26937](https://github.com/mdn/browser-compat-data/pull/26937))
+- `api.VideoFrame.rotation` ([#26937](https://github.com/mdn/browser-compat-data/pull/26937))
+- `api.Viewport` ([#26937](https://github.com/mdn/browser-compat-data/pull/26937))
+- `api.Viewport.segments` ([#26937](https://github.com/mdn/browser-compat-data/pull/26937))
+- `api.Window.viewport` ([#26937](https://github.com/mdn/browser-compat-data/pull/26937))
+- `browsers.deno.releases.2.3.0` ([#26936](https://github.com/mdn/browser-compat-data/pull/26936))
+- `browsers.deno.releases.2.3.2` ([#26936](https://github.com/mdn/browser-compat-data/pull/26936))
+- `html.elements.h1.no_ua_styles_in_article_aside_nav_section` ([#26946](https://github.com/mdn/browser-compat-data/pull/26946))
+- `webextensions.api.tabGroups.onRemoved.removeInfo` ([#26872](https://github.com/mdn/browser-compat-data/pull/26872))
+
+### Statistics
+
+- 9 contributors have changed 39 files with 1,003 additions and 296 deletions in 22 commits ([`v6.0.18...v6.0.19`](https://github.com/mdn/browser-compat-data/compare/v6.0.18...v6.0.19))
+- 17,193 total features
+- 1,158 total contributors
+- 5,263 total stargazers
+
+## [v6.0.18](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.18)
+
+May 27, 2025
+
+### Additions
+
+- `api.Document.parseHTMLUnsafe_static.options_sanitizer_parameter` ([#26815](https://github.com/mdn/browser-compat-data/pull/26815))
+- `api.Element.setHTMLUnsafe.options_sanitizer_parameter` ([#26815](https://github.com/mdn/browser-compat-data/pull/26815))
+- `api.LargestContentfulPaint.paintTime` ([#26916](https://github.com/mdn/browser-compat-data/pull/26916))
+- `api.LargestContentfulPaint.presentationTime` ([#26916](https://github.com/mdn/browser-compat-data/pull/26916))
+- `api.PerformancePaintTiming.paintTime` ([#26916](https://github.com/mdn/browser-compat-data/pull/26916))
+- `api.PerformancePaintTiming.presentationTime` ([#26916](https://github.com/mdn/browser-compat-data/pull/26916))
+- `api.PerformancePaintTiming.toJSON` ([#26916](https://github.com/mdn/browser-compat-data/pull/26916))
+- `api.ShadowRoot.setHTML` ([#26815](https://github.com/mdn/browser-compat-data/pull/26815))
+- `api.ShadowRoot.setHTMLUnsafe.options_sanitizer_parameter` ([#26815](https://github.com/mdn/browser-compat-data/pull/26815))
+- `browsers.chrome_android.releases.140` ([#26909](https://github.com/mdn/browser-compat-data/pull/26909))
+- `browsers.chrome.releases.140` ([#26909](https://github.com/mdn/browser-compat-data/pull/26909))
+- `browsers.firefox_android.releases.142` ([#26909](https://github.com/mdn/browser-compat-data/pull/26909))
+- `browsers.firefox.releases.142` ([#26909](https://github.com/mdn/browser-compat-data/pull/26909))
+- `browsers.webview_android.releases.140` ([#26909](https://github.com/mdn/browser-compat-data/pull/26909))
+- `html.elements.script.type.speculationrules.target_hint` ([#26893](https://github.com/mdn/browser-compat-data/pull/26893))
+- `http.headers.Clear-Site-Data.prefetchCache` ([#26893](https://github.com/mdn/browser-compat-data/pull/26893))
+- `http.headers.Clear-Site-Data.prerenderCache` ([#26893](https://github.com/mdn/browser-compat-data/pull/26893))
+- `svg.elements.use.omit_external_fragment` ([#26906](https://github.com/mdn/browser-compat-data/pull/26906))
+
+### Statistics
+
+- 7 contributors have changed 40 files with 902 additions and 233 deletions in 19 commits ([`v6.0.17...v6.0.18`](https://github.com/mdn/browser-compat-data/compare/v6.0.17...v6.0.18))
+- 17,184 total features
+- 1,156 total contributors
+- 5,259 total stargazers
+
+## [v6.0.17](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.17)
+
+May 23, 2025
+
+### Additions
+
+- `api.LanguageDetector` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.availability_static` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.create_static` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.destroy` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.detect` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.expectedInputLanguages` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.inputQuota` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.LanguageDetector.measureInputUsage` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.availability_static` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.create_static` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.destroy` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.inputQuota` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.measureInputUsage` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.sourceLanguage` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.targetLanguage` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.translate` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `api.Translator.translateStreaming` ([#26871](https://github.com/mdn/browser-compat-data/pull/26871))
+- `manifests.webapp.scope_extensions` ([#26890](https://github.com/mdn/browser-compat-data/pull/26890))
+
+### Statistics
+
+- 9 contributors have changed 43 files with 4,228 additions and 2,914 deletions in 22 commits ([`v6.0.16...v6.0.17`](https://github.com/mdn/browser-compat-data/compare/v6.0.16...v6.0.17))
+- 17,171 total features
+- 1,154 total contributors
+- 5,254 total stargazers
+
+## [v6.0.16](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.16)
+
+May 20, 2025
+
+### Removals
+
+- `http.headers.Permissions-Policy.document-domain` ([#26836](https://github.com/mdn/browser-compat-data/pull/26836))
+
+### Statistics
+
+- 6 contributors have changed 7 files with 41 additions and 88 deletions in 15 commits ([`v6.0.15...v6.0.16`](https://github.com/mdn/browser-compat-data/compare/v6.0.15...v6.0.16))
+- 17,152 total features
+- 1,154 total contributors
+- 5,249 total stargazers
+
 ## [v6.0.15](https://github.com/mdn/browser-compat-data/releases/tag/v6.0.15)
 
 May 16, 2025
