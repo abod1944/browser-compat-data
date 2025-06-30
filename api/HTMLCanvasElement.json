@@ -60,9 +60,6 @@
               "version_added": "43"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": {
               "version_added": "36"
@@ -103,9 +100,6 @@
               "version_added": "125"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -142,9 +136,6 @@
               "version_added": "125"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -219,9 +210,6 @@
                 "version_added": "46"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -253,9 +241,6 @@
                   "version_added": false
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -278,6 +263,9 @@
         "webgl_context": {
           "__compat": {
             "description": "WebGL context",
+            "tags": [
+              "web-features:webgl"
+            ],
             "support": {
               "chrome": [
                 {
@@ -386,9 +374,6 @@
                   "version_added": "30"
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -439,9 +424,6 @@
                   "version_added": false
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": {
                   "version_added": "68"
@@ -525,9 +507,6 @@
                 "firefox_android": {
                   "version_added": false
                 },
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -550,6 +529,9 @@
         "webgl2_context": {
           "__compat": {
             "description": "WebGL2 context",
+            "tags": [
+              "web-features:webgl2"
+            ],
             "support": {
               "chrome": {
                 "version_added": "56"
@@ -566,9 +548,6 @@
                 }
               ],
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -603,9 +582,6 @@
                   "version_added": "30"
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -654,9 +630,6 @@
                   "version_added": false
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": {
                   "version_added": "68"
@@ -694,9 +667,6 @@
                   "version_added": "41"
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -734,9 +704,6 @@
                   "notes": "Firefox respects the GPU hint on macOS only."
                 },
                 "firefox_android": {
-                  "version_added": false
-                },
-                "ie": {
                   "version_added": false
                 },
                 "oculus": "mirror",
@@ -782,14 +749,11 @@
               "firefox_android": {
                 "version_added": false
               },
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "preview"
+                "version_added": "26"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -797,7 +761,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -806,6 +770,9 @@
         "2d_context": {
           "__compat": {
             "description": "`2d` context",
+            "tags": [
+              "web-features:canvas-2d"
+            ],
             "support": {
               "chrome": {
                 "version_added": "1"
@@ -859,9 +826,6 @@
                   "version_added": "30"
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -897,9 +861,6 @@
                   "version_added": false
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -948,9 +909,6 @@
                   "version_added": false
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": {
                   "version_added": "68"
@@ -988,9 +946,6 @@
                   "version_added": "28"
                 },
                 "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
                 "oculus": "mirror",
                 "opera": "mirror",
                 "opera_android": "mirror",
@@ -1070,9 +1025,6 @@
               "version_added": "3.5"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -1103,9 +1055,6 @@
               "version_added": "18"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -1184,9 +1133,6 @@
                 "version_added": "25"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1218,9 +1164,6 @@
                 "version_added": "18"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1252,9 +1195,6 @@
                 "version_added": "18"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1286,9 +1226,6 @@
                 "version_added": "96"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1366,9 +1303,6 @@
                 "version_added": "18"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1400,9 +1334,6 @@
                 "version_added": "18"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1434,9 +1365,6 @@
                 "version_added": "96"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -1475,9 +1403,6 @@
               "version_added": "105"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
